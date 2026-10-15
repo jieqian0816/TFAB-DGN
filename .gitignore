@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Results & checkpoints
+results/
+*.pth
+*.png
+
+# Datasets (large binary files, not versioned)
+datasets/**/*.mat
+datasets/**/*.npy
+datasets/**/*.tif
+datasets/**/*.hdr
+datasets/**/*.raw
+!datasets/**/README.md
+!datasets/**/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
